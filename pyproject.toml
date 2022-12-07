@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "kiriko"
+version = "0.1.0"
+description = "A fully featured Discord Bot"
+authors = ["ShyAssassin <49711232+ShyAssassin@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+disnake = {extras = ["voice"], version = "^2.7.0"}
+python-dotenv = "^0.21.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
